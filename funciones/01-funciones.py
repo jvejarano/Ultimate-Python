@@ -1,7 +1,7 @@
-def hola(nombre):
+def hola(nombre, apellido="Feliz"):  # Parametros
     print("Hola Mundo!")
-    print(f"Bienvenido {nombre}")
+    print(f"Bienvenido {nombre} {apellido}")
 
 
-hola("Jorge")
-hola("Chanchito feliz")
+hola(apellido="Vejarano", nombre="Juan")   # Argumentos
+hola("Chanchito")  #
