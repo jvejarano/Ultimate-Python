@@ -6,5 +6,5 @@ def largo(texto):
 
 
 print("Chanchito")
-l = largo("Hola Munddo")
+l = largo("Hola Mundo")
 print(l)
