@@ -1,11 +1,10 @@
-def no_space(texto):
-    nuevo_texto = ""
+def no_space(texto):  # Recibe el parametro 'texto' y lo reemplaza para que no tenga espcios 'no space'
 
-
-for char in texto:
-    if char != "":
-        nuevo_texto += char
-return nuevo_texto
+    nuevo_texto = ""  # Ojo la identacion en este codigo, siempre verificar
+    for char in texto:
+        if char != " ":
+            nuevo_texto += char
+    return nuevo_texto
 
 
 def es_palindromo(texto):
