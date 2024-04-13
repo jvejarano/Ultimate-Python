@@ -1,5 +1,6 @@
 def reverse(texto):
-    
+
+
 def no_space(texto):  # Recibe el parametro 'texto' y lo reemplaza para que no tenga espcios 'no space'
 
     nuevo_texto = ""  # Ojo la identacion en este codigo, siempre verificar
