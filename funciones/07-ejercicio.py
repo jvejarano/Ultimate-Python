@@ -1,3 +1,5 @@
+def reverse(texto):
+    
 def no_space(texto):  # Recibe el parametro 'texto' y lo reemplaza para que no tenga espcios 'no space'
 
     nuevo_texto = ""  # Ojo la identacion en este codigo, siempre verificar
@@ -9,6 +11,8 @@ def no_space(texto):  # Recibe el parametro 'texto' y lo reemplaza para que no t
 
 def es_palindromo(texto):
     texto = no_space(texto)
+    texto_al_reves = reverse(texto)
+    print(texto_al_reves)
     print(texto)
 
 
