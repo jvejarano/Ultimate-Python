@@ -13,7 +13,7 @@ Clonar el Repositorio: Para acceder a los ejemplos de código y notas, clona est
 
 bash
 Copy code
-git clone https://github.com/jvejarano/ultimate-python-learning.git
+git clone https://github.com/jvejarano/Ultimate-Python.git
 Explorar Capítulos: Navega a través de los directorios para explorar los ejemplos de código y notas para cada capítulo.
 
 Contribuir: Si tienes alguna sugerencia, corrección o información adicional para ofrecer, no dudes en enviar solicitudes de extracción o abrir problemas. El aprendizaje es un proceso colaborativo, y agradezco las contribuciones de otros entusiastas de Python.
