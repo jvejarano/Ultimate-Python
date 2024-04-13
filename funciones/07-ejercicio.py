@@ -1,9 +1,12 @@
 def reverse(texto):
+    texto_al_reves = ""
+    for char in texto:
+        texto_al_reves = char + texto_al_reves
+    return texto_al_reves
 
 
-def no_space(texto):  # Recibe el parametro 'texto' y lo reemplaza para que no tenga espcios 'no space'
-
-    nuevo_texto = ""  # Ojo la identacion en este codigo, siempre verificar
+def no_space(texto):
+    nuevo_texto = ""
     for char in texto:
         if char != " ":
             nuevo_texto += char
@@ -13,11 +16,17 @@ def no_space(texto):  # Recibe el parametro 'texto' y lo reemplaza para que no t
 def es_palindromo(texto):
     texto = no_space(texto)
     texto_al_reves = reverse(texto)
-    print(texto_al_reves)
-    print(texto)
+    return texto.lower() == texto_al_reves.lower()
 
 
-es_palindromo("Amo la paloma")
+# es_palindromo("amo la paloma")
+# es_palindromo("hola mundo")
+
+# Es palindromo o no???? #
+print(es_palindromo("Amo la Paloma"))
+print(es_palindromo("Hola Mundo"))
+print(es_palindromo("Reconocer"))
+print(es_palindromo("Isaac no ronca asi"))
 
 
 # print("Abba", es_palindromo("Abba"))
