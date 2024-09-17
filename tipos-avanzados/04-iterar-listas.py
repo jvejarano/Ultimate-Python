@@ -4,4 +4,4 @@ mascotas = ["Pelusa", "Pulga", "Felipe", "Chanchito Feliz"]
 #     print(f"{indice}: {mascotas}")
 
 for mascotas in enumerate(mascotas):
-    print(mascotas)
+    print(mascotas[1])
